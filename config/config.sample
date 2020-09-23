@@ -1,0 +1,9 @@
+[bitbucket]
+user=someuser@domain.com
+password=secret
+workspace=someuser
+
+[git]
+destination_path=/folder/where/to/clone/repos
+
+[elastic]
