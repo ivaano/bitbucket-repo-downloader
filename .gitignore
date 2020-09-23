@@ -140,3 +140,9 @@ dmypy.json
 cython_debug/
 
 /config/config.ini
+/.idea/.gitignore
+/.idea/bitbucketClient.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
