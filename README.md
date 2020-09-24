@@ -1,12 +1,12 @@
 # bitbucket-repo-downloader
 Clone/Update all  user repositories from bitbucket.
 
-###Requirements
+### Requirements
 * python3.6+
 * git
 * ssh
 
-###Installation
+### Installation
 * Because the clone is done using ssh, you need to add your ssh key to bitbucket (https://bitbucket.org/account/settings/ssh-keys/)
 * Clone this repo ```git clone https://github.com/ivaano/bitbucket-repo-downloader.git```
 * Create a new virtual environment ```python3.7 -m venv venv```
@@ -15,7 +15,7 @@ Clone/Update all  user repositories from bitbucket.
 * Install dependencies ```pip install -r requirements.txt```
 * Copy `config/config.sample` to `config/config.ini` and put your settings there.
 
-###Usage
+### Usage
 If you have set your settings in the config.ini file
 just run the program ```python main.py```
 Alternatively you can run the interactive mode by adding the `python main.py -i` argument
